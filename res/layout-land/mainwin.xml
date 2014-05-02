@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backend"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip"
+        android:layout_marginTop="-10dip"
+        android:src="@drawable/logo" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="0dip" >
+
+        <EditText
+            android:id="@+id/kolliidnr"
+            android:layout_width="274dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_edittext"
+            android:padding="5dip"
+            android:shadowColor="#000"
+            android:shadowDx="3"
+            android:shadowDy="-3"
+            android:shadowRadius="1.5"
+            android:textColor="#2cb3de"
+            android:textSize="18dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/provider"
+            android:layout_width="80dip"
+            android:layout_height="32dip"
+            android:layout_gravity="right"
+            android:layout_marginRight="124dip"
+            android:background="@drawable/valjforetag"
+            android:shadowColor="#000"
+            android:shadowDx="3"
+            android:shadowDy="3" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/searchbutton"
+            android:layout_width="150dip"
+            android:layout_height="80dip"
+            android:background="@drawable/sokbutton"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/tidigare"
+            android:layout_width="150dip"
+            android:layout_height="80dip"
+            android:background="@drawable/minasokningar"
+             />
+    </LinearLayout>
+
+</LinearLayout>

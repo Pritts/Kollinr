@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/minpressed" android:state_enabled="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/minanormal" android:state_enabled="true"/>
+
+</selector>

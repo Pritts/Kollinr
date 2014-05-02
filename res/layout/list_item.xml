@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- Name Label -->
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textColor="#00CCFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <!-- Description label -->
+
+        <TextView
+            android:id="@+id/desciption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dip"
+            android:textColor="#acacac" >
+        </TextView>
+        <!-- Linear layout for cost -->
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- Cost Label -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="Tid: "
+                android:textColor="#5d5d5d"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#00CCFF"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:gravity="left"
+                android:text="Datum: "
+                android:textColor="#5d5d5d"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#00CCFF"
+                android:textStyle="bold" >
+               
+            </TextView>
+            <!-- Price Label -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
